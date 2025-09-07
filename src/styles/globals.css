@@ -153,6 +153,10 @@ body {
     margin-bottom: 0;
     list-style: none;
 }
+    .col-md-12 {
+        flex: none;
+        width: 100%;
+    }
 @media (min-width: 768px) {
   .col-md-3 {
     flex: 0 0 auto;
@@ -3691,9 +3695,11 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #00000090;
   /* pointer-events: none; */
 opacity: 1;
-  transition: opacity 1.5s ease 0.5s;
+  transition: opacity 1s ease;
+  cursor: pointer;
 }
 .panorama-overlay img {
   width: 100%;

@@ -95,10 +95,11 @@ const PanoramaViewer = ({ imageUrl }) => {
         <div
            className={`panorama-overlay ${isInteracted ? 'active' : ''}`}
            onClick={handleOverlayDismiss}
-          onMouseEnter={handleOverlayDismiss}
+          // onMouseEnter={handleOverlayDismiss}
         //   style={{ opacity: 0, transition: "opacity 0.6s ease 0s" }}
         >
-          <img src="/carviewerloaderimg.png" />
+          {/* <img src="/carviewerloaderimg.png" /> */}
+          <span>This is a 360° experience, touch the screen <br />and drag to move around the interior of the <br />new BMW 4 Series Coupe.</span>
         </div>
         {/* )} */}
         <div
